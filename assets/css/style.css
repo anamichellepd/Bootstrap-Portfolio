@@ -1,0 +1,183 @@
+* {
+    text-align: center;
+}
+html{
+    height:100%;
+}
+/*About*/
+body {
+    height: 100%;
+    overflow: auto;
+    background-image: url("../images/greek-vase.png");
+    background-repeat: repeat; 
+    background-clip: border-box;
+    margin: 0;
+}
+nav{
+    background-color: white;
+    height: 45px;
+    border-style: solid;
+    border-color: #cccccc;
+    margin: 10px 0;
+}
+
+
+.header{
+    position: absolute;
+    padding: 27px;
+    top: -30px;
+    left:40px;
+   
+    width: 200px;
+    color: #ffffff;;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    float: right;
+    text-decoration: none;
+    color: #777777;
+
+}
+    a:link { color:#777777); }
+    a:visited {color:#777777}
+    a:hover { color: pink; }
+    a:active { color: yellow; }
+}
+hr{
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #ffffff;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.whiteBox {
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-style: solid;
+    border-color: #dddddd;
+    width:960px; 
+}
+.aboutMe {
+    display:block;
+    padding: 0px;
+    top: 40px;
+    left: 3%;
+    width: 200px;
+    color: #4aaaa5;;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.profilePic {
+    float: left;
+    width: 100%;
+}
+.text {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+   
+ 
+}
+.textTwo {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 30px;
+
+
+}
+footer{
+    position:absolute;
+    width: 100%;
+    height: 30px;
+    clear: both;
+    padding: 30px;
+    background-color: #666666;
+}
+.greenBar{
+    position:absolute;
+    display: block;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+    border-style: solid;
+    border-color:#4aaaa5;
+    border-width: medium;
+    margin: 0px;
+    }
+
+    /*Portfolio*/
+
+.separate{
+    margin: 20px 25px;
+    position:relative;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.separate img {
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.separate p {
+    position: absolute;
+    bottom: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    padding: 5px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footerSpace{
+    height:11%;
+}
+
+/* Contact */
+
+.contactContainer{
+    float: left;
+    text-align: left;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    float: left;
+    margin:20px 0;
+}
+input{
+    float:left;
+    height: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+.space{
+    float: left;
+    height: 27px;
+    width: 0px;
+}
+.message{
+    height:200px;
+}
+.submit{
+    margin:10px;
+    width:10%;
+    height: 35px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+}
